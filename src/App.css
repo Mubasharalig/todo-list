@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+
+body {
+  background: linear-gradient(to right, #F7CAC9, #FFE5D7);
+}
+.todo
+{
+  background-color: whitesmoke;
+  padding:20px;
+  width: 400px;
+}
+input
+{
+  padding:10px;
+  border:none;
+  width: 100%;
+}
+.addBtn
+{
+  background-color: orange;
+  padding:10px;
+  margin-left: 5px;
+}
+.addDiv
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.viewItem
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: white;
+  align-items: center;
+  height: 40px;
+}
+.editDel
+{
+  display: flex;
+  align-items: center;
+}
+.deleteBtn
+{
+  background-color: #E65100;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+
+}
+.editBtn
+{
+  margin-right: 20px;
+  font-size: 25px;
+  color: green;
+  cursor: pointer;
+
+}
+.taskText
+{
+  padding:10px;
+}
